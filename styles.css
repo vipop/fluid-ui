@@ -1,0 +1,303 @@
+body {
+  margin: 0px;
+  background-color: #111111;
+  color: whitesmoke;
+  padding: 2% 5% 0% 5%;
+}
+
+header {
+  /*background-color: green;*/
+}
+
+h1 {
+  font-size: 48pt;
+}
+
+h2 {
+  color: orange;
+}
+
+nav {
+  /*background-color: pink;*/
+  padding-bottom: 1%;
+  font-size: 14pt;
+}
+
+ul {
+  padding: 0px;
+}
+
+l.topnav {
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main {
+  /*background-color: brown;*/
+  padding-right: 2%;
+}
+
+aside {
+  /*background-color: orange;*/
+  padding-left: 2%;
+}
+
+main.main-info {
+  /*background-color: brown;*/
+  padding-right: 2%;
+}
+
+aside.aside-info {
+  /*background-color: orange;*/
+  padding-left: 2%;
+}
+
+section.section-title {
+
+}
+
+section.section-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  margin-bottom: 25px;
+}
+
+.news {
+  padding: 1%;
+}
+
+.trending {
+  padding: 2%;
+}
+
+.news-title {
+  padding-bottom: 15px;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.news-text {
+  padding-bottom: 10%;
+}
+
+.info {
+  padding: 1%;
+}
+
+img {
+  border: solid 2pt black;
+  width: 99%;
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+figcaption {
+  font-size: 10pt;
+  text-align: right;
+  color: #555555;
+}
+
+.zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.thumb {
+  padding: 1%;
+}
+
+footer {
+  padding-top: 1%;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.footer-col {
+  padding-left: 100px;
+}
+
+p {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#arrow {
+  padding-top: 50px;
+  display: table;
+  margin: 0 auto;
+}
+
+.arr-up {
+  border: solid whitesmoke;
+  border-width: 0 .3em .3em 0;
+  display: inline-block;
+  padding: .50em;
+  transform: rotate(-135deg);
+}
+
+.arr-up:hover {
+  border: solid orange;
+  border-width: 0 .3em .3em 0;
+  display: inline-block;
+  padding: .50em;
+  transform: rotate(-135deg);
+}
+
+/* --- --- --- SMALL SCREENS --- --- --- */
+@media only screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    padding: 0px;
+  }
+  aside {
+    width: 100%;
+    padding: 0px;
+  }
+  main.main-thumb {
+    width: 100%;
+  }
+  .trending {
+    width: 98%;
+    padding: 1%;
+  }
+  .news {
+    width: 98%;
+  }
+  .thumb {
+    width: 98%;
+  }
+}
+
+/* --- --- --- MEDIUM SCREENS --- --- --- */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  main {
+    width: 98%;
+    padding: 0px;
+  }
+  aside {
+    width: 98%;
+    padding: 0px;
+  }
+  main.main-thumb {
+    width: 100%;
+  }
+  .trending {
+    width: 48%;
+    padding: 1%;
+  }
+  .news {
+    width: 48%;
+  }
+  .thumb {
+    width: 48%;
+  }
+}
+
+/* --- --- --- LARGE SCREENS --- --- --- */
+@media only screen and (min-width: 1024px) and (max-width: 1520px) {
+  main {
+    width: 98%;
+    padding: 0px;
+  }
+  aside {
+    width: 98%;
+    padding: 0px;
+  }
+  main.main-thumb {
+    width: 100%;
+  }
+  .trending {
+    width: 23%;
+    padding: 1%;
+  }
+  .news {
+    width: 23%;
+  }
+  .thumb {
+    width: 31%;
+  }
+}
+
+/* --- --- --- LARGER SCREENS --- --- --- */
+@media only screen and (min-width: 1520px) and (max-width: 1800px) {
+  main {
+    width: 75.6%;
+  }
+  aside {
+    width: 20.3%;
+  }
+  main.main-info {
+    width: 82.6%;
+  }
+  aside.aside-info {
+    width: 13.3%;
+  }
+  main.main-thumb {
+    width: 100%;
+  }
+  .trending {
+    width: 98%;
+  }
+  .news {
+    width: 23%;
+  }
+  .thumb {
+    width: 23%;
+  }
+}
+
+/* --- --- --- VERY LARGE SCREENS --- --- --- */
+@media only screen and (min-width: 1800px) {
+  main {
+    width: 64.6%;
+  }
+  aside {
+    width: 31.3%;
+  }
+  main.main-info {
+    width: 82.6%;
+  }
+  aside.aside-info {
+    width: 13.3%;
+  }
+  main.main-thumb {
+    width: 100%;
+  }
+  .trending {
+    width: 46%;
+  }
+  .news {
+    width: 23%;
+  }
+  .thumb {
+    width: 14.5%;
+  }
+}
