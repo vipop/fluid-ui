@@ -5,10 +5,6 @@ body {
   padding: 2% 5% 0% 5%;
 }
 
-header {
-  /*background-color: green;*/
-}
-
 h1 {
   font-size: 48pt;
 }
@@ -18,7 +14,6 @@ h2 {
 }
 
 nav {
-  /*background-color: pink;*/
   padding-bottom: 1%;
   font-size: 14pt;
 }
@@ -47,27 +42,19 @@ a:hover {
 }
 
 main {
-  /*background-color: brown;*/
   padding-right: 2%;
 }
 
 aside {
-  /*background-color: orange;*/
   padding-left: 2%;
 }
 
 main.main-info {
-  /*background-color: brown;*/
   padding-right: 2%;
 }
 
 aside.aside-info {
-  /*background-color: orange;*/
   padding-left: 2%;
-}
-
-section.section-title {
-
 }
 
 section.section-body {
